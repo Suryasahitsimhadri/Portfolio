@@ -1,0 +1,13 @@
+2025-02-20 23:15:17,960:INFO:Import neccessary libraries
+2025-02-20 23:16:08,759:INFO:generate synthetic data and plot generated data points
+2025-02-20 23:16:49,193:INFO:Initialize and fit the model
+2025-02-20 23:17:23,463:INFO:Evaluation Matrics
+2025-02-20 23:17:41,946:INFO:classification report
+2025-02-20 23:18:11,825:INFO:visualize decision boundaries
+2025-02-20 23:18:50,464:INFO:visualize the random forest model
+2025-02-20 23:19:32,570:INFO:libraries importing for randomforest regressor
+2025-02-20 23:20:00,084:INFO:initialize the random forest model
+2025-02-20 23:20:22,187:INFO:Fit the random forest model
+2025-02-20 23:21:01,652:INFO:evaluation matrices
+2025-02-20 23:21:24,503:INFO:visualize regression model
+2025-02-20 23:23:55,813:INFO:finding the best fit curve

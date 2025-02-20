@@ -1,0 +1,15 @@
+2025-02-20 23:01:55,377:INFO:Neccessary packages installed successful
+2025-02-20 23:03:43,318:INFO:setting the font-size and vector drawing
+2025-02-20 23:04:22,318:INFO:Data load Successful
+2025-02-20 23:05:04,742:INFO:Display first few rows of dataset
+2025-02-20 23:05:33,686:INFO:Checking missing values
+2025-02-20 23:06:29,297:INFO:preprocessing the data
+2025-02-20 23:07:12,295:INFO:Display distribution of data
+2025-02-20 23:07:35,414:INFO:confusion matrix
+2025-02-20 23:08:25,848:INFO:fit the model
+2025-02-20 23:09:18,289:INFO:optimal model find
+2025-02-20 23:09:30,435:INFO:optimal model find
+2025-02-20 23:10:14,980:INFO:display classification report
+2025-02-20 23:10:45,771:INFO:Regression Analysis
+2025-02-20 23:10:52,909:INFO:Regression Analysis
+2025-02-20 23:13:16,539:INFO:Dataset saved to Excel file

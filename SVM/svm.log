@@ -1,0 +1,12 @@
+2025-02-20 23:38:15,955:INFO:importing neccessary libraries
+2025-02-20 23:39:03,513:INFO:Loading the data
+2025-02-20 23:40:02,376:INFO:Data saved to Excel format
+2025-02-20 23:40:38,416:INFO:Show the data
+2025-02-20 23:41:27,613:INFO:distribution of data
+2025-02-20 23:41:56,238:INFO:Svm Model Building
+2025-02-20 23:42:22,518:INFO:Training the model
+2025-02-20 23:42:55,675:INFO:predict the labels
+2025-02-20 23:43:13,422:INFO:predict the labels and display classification report
+2025-02-20 23:44:17,967:INFO:Plot the decision fuction 
+2025-02-20 23:46:45,160:INFO:Used data saved to Excel format
+2025-02-20 23:47:05,554:INFO:Used data saved to Excel format

@@ -1,0 +1,25 @@
+2025-02-20 22:45:21,771:INFO:Libraries imported successfully
+2025-02-20 22:45:21,857:INFO:Titanic dataset loaded successfully
+2025-02-20 22:45:21,907:INFO:First 5 rows of the dataset displayed successfully
+2025-02-20 22:45:21,948:INFO:Missing values checked successfully
+2025-02-20 22:45:22,011:INFO:Info checked successfully
+2025-02-20 22:45:22,089:INFO:Non-useful columns dropped successfully
+2025-02-20 22:45:22,148:INFO:Missing values dropped successfully
+2025-02-20 22:45:22,287:INFO:Categorical values encoded successfully
+2025-02-20 22:45:22,327:INFO:Categorical values encoded successfully
+2025-02-20 22:45:22,380:INFO:X and y for classification created successfully
+2025-02-20 22:45:22,398:INFO:Missing values checked successfully
+2025-02-20 22:45:22,434:INFO:Exploratory Data Analysis for Classification
+2025-02-20 22:45:25,259:INFO:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-20 22:45:25,273:INFO:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-20 22:45:35,546:INFO:Train-Test split for classification done successfully
+2025-02-20 22:45:35,587:INFO:Decision Tree Classifier trained successfully
+2025-02-20 22:45:35,650:INFO:Decision Tree Classifier Accuracy (Titanic): 0.74
+2025-02-20 22:45:38,730:INFO:Classification Tree visualized successfully
+2025-02-20 22:45:38,850:INFO:House Prices dataset loaded successfully
+2025-02-20 22:45:38,884:INFO:X and y for regression created successfully
+2025-02-20 22:45:38,917:INFO:Train-Test split for regression done successfully
+2025-02-20 22:45:39,013:INFO:Decision Tree Regressor trained successfully
+2025-02-20 22:45:39,046:INFO:Decision Tree Regressor MSE (House Prices): 1823818605.44
+2025-02-20 22:45:46,819:INFO:Regression tree visualize successfully
+2025-02-20 22:46:51,717:INFO:Datasets saved to Excel successfully

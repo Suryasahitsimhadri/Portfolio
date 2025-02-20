@@ -1,0 +1,10 @@
+2025-02-20 22:49:42,368:INFO:Neccessary packages imported successfully
+2025-02-20 22:50:23,922:INFO:Visualize the data successfully
+2025-02-20 22:51:21,466:INFO:Build and Fit the kmeans Model
+2025-02-20 22:52:35,119:INFO:visualizing kmeans clustering
+2025-02-20 22:54:22,488:INFO:visualize the center of clusters
+2025-02-20 22:54:56,660:INFO:visualize k-means clustering
+2025-02-20 22:56:02,791:INFO:loading the make_moons dataset successfully
+2025-02-20 22:56:48,586:INFO:Define and fit the model successfully
+2025-02-20 22:57:35,761:INFO:examples for k-means
+2025-02-20 22:59:13,510:INFO:Dataset saved to Excel file successfully
