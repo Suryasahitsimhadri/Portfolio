@@ -1,0 +1,21 @@
+2025-02-20 22:20:39,885:INFO:Imported necessary libraries
+2025-02-20 22:20:49,894:INFO:Generated data for classification
+2025-02-20 22:20:52,778:INFO:Fitted the model
+2025-02-20 22:20:55,355:INFO:Predicted the new data
+2025-02-20 22:20:56,849:INFO:visualize the predicted values
+2025-02-20 22:21:01,989:INFO:Predicted probabilities for the new data
+2025-02-20 22:21:27,797:INFO:load data from 20 newsgroups
+2025-02-20 22:22:11,281:INFO:Selected categories for classification
+2025-02-20 22:22:27,254:INFO:Displaying the data
+2025-02-20 22:22:51,898:INFO:Checked for missing values in the data
+2025-02-20 22:23:03,494:INFO:Created a pipeline for the model
+2025-02-20 22:23:18,311:INFO:Fitted the model
+2025-02-20 22:23:31,181:INFO:Visualized the confusion matrix
+2025-02-20 22:23:45,034:INFO:Defined a function to predict the category
+2025-02-20 22:23:53,134:INFO:Tested the function
+2025-02-20 22:24:07,418:INFO:Tested the function
+2025-02-20 22:24:21,609:INFO:Tested the function
+2025-02-20 22:24:33,228:INFO:Displayed the classification report
+2025-02-20 22:24:45,747:INFO:Displayed the accuracy of the model
+2025-02-20 22:25:57,023:INFO:Saved the dataset to Excel format
+2025-02-20 22:26:39,749:INFO:Saved the dataset to Excel format
