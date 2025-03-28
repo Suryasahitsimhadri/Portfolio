@@ -35,6 +35,50 @@ Portfolio/
       ├──  cheatsheet-supervised-learning.pdf
       ├──  cheatsheet-unsupervised-learning.pdf
       ├── super-study-guide-data-science-tools.pdf
+
+|-- Ann/
+      ├── ann.ipynb
+      |-- ann_log
+      |-- deployment_artifacts
+      |-- Plots
+      |-- ANN_log.txt
+      |-- ANN_model.ipynb
+      |-- Bank Marketing Dataset.csv
+      |-- Baseline_model.h5
+      |-- Baseline_model.pkl
+
+|-- CNN/
+      ├── cnn_log.txt
+      |-- CNN_model.ipynb
+      |-- cnn_tuned_model.pkl
+ 
+|-- Linear_Regression/
+      ├── linear_regression.ipynb
+      |-- linear_regression_log.txt
+      |-- linear_regression_model.pkl
+      |-- global_housing_market_extended.csv
+
+|-- LSTM/
+      ├── lstm_log.txt
+      |-- LSTM_model.ipynb
+      |-- lstm_tuned_model.pkl
+      |-- Metro_Interstate_Traffic_Volume.csv
+      |-- scaler.pkl
+
+|-- RNN/
+      ├── rnn_log.txt
+      |-- RNN_model.ipynb
+      |-- rnn_tuned_model.pkl
+      |-- tokenizer.pkl
+      |-- imdb_top_1000.csv
+
+|-- Transformer/
+      ├── transformer_log.txt
+      |-- transformer_model.ipynb
+      |-- transformer_model.pkl
+      |-- Plots
+      |-- synthetic_stock_data.csv
+          
 ```
 
 ## Projects Overview
@@ -67,6 +111,41 @@ Portfolio/
    - Clustering algorithm implementation
    - Centroid optimization
    - Real-world clustering examples
+
+7. **Artificial Neural Networks (ANN)**
+   - Feedforward neural networks
+   - Backpropagation algorithm
+   - Model evaluation and tuning
+
+8. **Convolutional Neural Networks (CNN)**
+   - Image classification
+   - Convolutional layers and pooling
+   - Transfer learning
+
+9. **Long Short-Term Memory (LSTM)**
+   - Time series forecasting
+   - Sequence prediction
+   - Data preprocessing techniques
+
+10. **Recurrent Neural Networks (RNN)**
+    - Sequence modeling
+    - Text generation
+    - Sentiment analysis
+
+11. **Transformers**
+      - Attention mechanisms
+      - Natural language processing
+      - Sequence-to-sequence tasks
+
+12. **Linear Regression**
+      - Simple and multiple linear regression
+      - Cost function optimization
+      - Model evaluation metrics
+
+13. **Cheatsheets**
+      - Quick reference guides for various ML/DL concepts
+      - Tips and tricks for effective model building
+      - Study guides for data science tools
 
 
 ## Tools and Technologies Used
