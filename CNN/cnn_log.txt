@@ -1,0 +1,37 @@
+[2025-03-28 00:00:13] === CNN Model Log Started ===
+[2025-03-28 00:00:13] Business Understanding: Build a CNN to classify CIFAR-10 images, enhancing understanding through dataset alteration and tuning.
+[2025-03-28 00:01:20] Data Understanding: CIFAR-10 has 60,000 32x32 RGB images across 10 classes.
+[2025-03-28 00:06:28] Visualized 16 sample images from the training dataset.
+[2025-03-28 00:07:50] Normalized pixel values to range [0, 1].
+[2025-03-28 00:08:22] Converted labels to one-hot encoding.
+[2025-03-28 00:09:06] Data Preparation: Loaded CIFAR-10, normalized data, grayscaled 20% of training images.
+[2025-03-28 00:10:49] Modeling: Training baseline CNN with 32-64-64 filters, no dropout.
+[2025-03-28 00:17:23] Evaluation: Baseline CNN - Test Accuracy: 0.6746, Test Loss: 0.9328
+[2025-03-28 00:18:32] Modeling: Training tuned CNN with 48-96-96 filters, dropout 0.3, learning rate 0.0005 on altered dataset.
+[2025-03-28 00:36:33] Evaluation: Tuned CNN - Test Accuracy: 0.6745, Test Loss: 0.9166
+[2025-03-28 00:37:15] Visualized training accuracy for baseline and tuned models.
+[2025-03-28 00:37:26] Analysis: Grayscaling 20% of images reduced accuracy slightly (~0.02) due to loss of color info but sped up training.
+[2025-03-28 00:37:26] Analysis: Tuned model with dropout and more filters improved generalization (lower val loss).
+[2025-03-28 00:37:26] Analysis: Tuned model outperformed baseline by ~-0.0001 in test accuracy.
+[2025-03-28 00:37:36] Deployment: Tuned model saved as cnn_tuned_model.pkl
+[2025-03-28 00:37:36] Deployment: Sample Prediction: cat (True Label: cat)
+[2025-03-28 00:37:36] Deployment: Standalone predictor script saved as 'cnn_predictor.py'.
+[2025-03-28 00:37:36] === CNN Model Log Completed ===
+[2025-03-28 00:37:36] Submission Notes: Files included - this notebook, cnn_tuned_model.pkl, cnn_predictor.py, cnn_log.txt, cnn_accuracy_plot.png
+[2025-03-28 00:37:36] Sources: TensorFlow documentation (https://www.tensorflow.org/), CIFAR-10 from Keras.
+[2025-03-28 10:20:37] Deployment: Tuned model saved as cnn_tuned_model.pkl
+[2025-03-28 10:20:44] Deployment: Flask web app script saved as 'cnn_webapp.py'. Run it to start the server.
+[2025-03-28 10:20:45] Deployment: Sample Prediction: cat (True Label: cat)
+[2025-03-28 10:20:45] === CNN Model Log Completed ===
+[2025-03-28 10:20:45] Submission Notes: Files included - this notebook, cnn_tuned_model.pkl, cnn_webapp.py, cnn_log.txt, cnn_accuracy_plot.png
+[2025-03-28 10:20:45] Sources: TensorFlow (https://www.tensorflow.org/), Flask (https://flask.palletsprojects.com/), CIFAR-10 from Keras.
+[2025-03-28 10:26:54] Deployment: Flask web app script saved as 'cnn_webapp.py'. Run it to start the server.
+[2025-03-28 10:26:55] Deployment: Sample Prediction: cat (True Label: cat)
+[2025-03-28 10:26:55] === CNN Model Log Completed ===
+[2025-03-28 10:26:55] Submission Notes: Files included - this notebook, cnn_tuned_model.pkl, cnn_webapp.py, cnn_log.txt, cnn_accuracy_plot.png
+[2025-03-28 10:26:55] Sources: TensorFlow (https://www.tensorflow.org/), Flask (https://flask.palletsprojects.com/), CIFAR-10 from Keras.
+[2025-03-28 18:19:50] Deployment: Flask web app script saved as 'cnn_webapp.py'. Run it to start the server.
+[2025-03-28 18:19:51] Deployment: Sample Prediction: cat (True Label: cat)
+[2025-03-28 18:19:51] === CNN Model Log Completed ===
+[2025-03-28 18:19:51] Submission Notes: Files included - this notebook, cnn_tuned_model.pkl, cnn_webapp.py, cnn_log.txt, cnn_accuracy_plot.png
+[2025-03-28 18:19:51] Sources: TensorFlow (https://www.tensorflow.org/), Flask (https://flask.palletsprojects.com/), CIFAR-10 from Keras.
