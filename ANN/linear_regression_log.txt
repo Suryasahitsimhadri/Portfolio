@@ -1,0 +1,21 @@
+[2025-03-28 19:56:26] === ANN Model Log Started ===
+[2025-03-28 19:57:24] Loading data..
+[2025-03-28 19:58:59] Data loaded successfully.
+[2025-03-28 20:19:38] Loading data..
+[2025-03-28 20:26:18] Loading data..
+[2025-03-28 20:28:00] Display and verify loaded data.
+[2025-03-28 20:28:39] Encoded categorical variables.
+[2025-03-28 20:29:45] Split data into training, validation, and test sets.
+[2025-03-28 20:29:55] Standardized features using StandardScaler.
+[2025-03-28 20:30:39] Defined model creation function.
+[2025-03-28 20:36:12] Trained models with different regularization techniques.
+[2025-03-28 20:37:42] Displayed test accuracy and ROC-AUC for different regularization techniques.
+[2025-03-28 20:40:22] Trained multi-branch model.
+[2025-03-28 20:41:01] Evaluated multi-branch model on test set.
+[2025-03-28 20:45:20] Trained model with Adam_Decay optimizer.
+[2025-03-28 20:45:27] Displayed optimizer comparison results.
+[2025-03-28 20:45:38] Displayed optimizer comparison visualizations.
+[2025-03-28 20:48:05] Displayed test accuracy and ROC-AUC for different optimizers.
+[2025-03-28 20:49:11] Saved training history plot for Baseline model.
+
+[2025-03-28 21:02:35] Saved model, scaler, and label encoders for deployment.
