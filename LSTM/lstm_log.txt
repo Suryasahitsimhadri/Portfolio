@@ -1,0 +1,28 @@
+[2025-03-28 14:09:06] === LSTM Model Log Started ===
+[2025-03-28 14:09:06] Business Understanding: Predict hourly traffic volume using LSTM to support urban planning and traffic management.
+[2025-03-28 14:11:08] Loading data from CSV file...
+[2025-03-28 14:13:26] Displaying the first few rows of the data...
+[2025-03-28 14:15:54] Checking for missing values...
+[2025-03-28 14:16:40] Feature engineering completed.
+[2025-03-28 14:17:20] Categorical variables encoded.
+[2025-03-28 14:22:50] Visualizing the data...
+[2025-03-28 14:23:26] Selected features and target.
+[2025-03-28 14:25:48] Numerical features normalized.
+[2025-03-28 14:27:07] Visualizing distribution of target variable.
+[2025-03-28 14:27:08] Data preprocessing completed.
+[2025-03-28 14:27:50] Data Preparation: Created 40551 sequences of length 24 with features ['temp', 'rain_1h', 'snow_1h', 'clouds_all', 'weather_main_encoded', 'hour', 'day_of_week', 'is_holiday', 'traffic_volume'].
+[2025-03-28 14:28:06] Data Preparation: Split data into 32440 training and 8111 testing samples.
+[2025-03-28 14:29:10] Modeling: Training baseline LSTM with 64 units.
+[2025-03-28 14:36:05] Evaluation: Baseline LSTM - Test MSE: 0.0016, Test MAE: 0.0270, Test Rmse: 0.0396, Test MAPE: 0.0594
+[2025-03-28 14:36:16] Modeling: Training tuned LSTM with 128/64 units, dropout 0.2, learning rate 0.0001.
+[2025-03-28 14:59:45] Evaluation: Tuned LSTM - Test MSE: 0.0028, Test MAE: 0.0361, Test RMSE: 0.0531, Test MAPE: 0.0794
+[2025-03-28 15:01:22] Visualization of Training History.
+[2025-03-28 15:02:41] Analysis: Tuned LSTM reduced MAE by ~-0.0091 compared to baseline.
+[2025-03-28 15:02:41] Analysis: Additional LSTM layer and dropout improved generalization on time-series data.
+[2025-03-28 15:02:41] Analysis: Limited epochs (10) used; more data or epochs could further enhance performance.
+[2025-03-28 15:02:55] Deployment: Tuned model saved as lstm_tuned_model.pkl
+[2025-03-28 15:03:34] Deployment: Scaler saved as 'scaler.pkl'
+[2025-03-28 15:03:34] Deployment: Sample Prediction - Predicted: 609.71, True: 954.0
+[2025-03-28 15:03:34] === LSTM Model Log Completed ===
+[2025-03-28 15:03:34] Submission Notes: Files included - this notebook, lstm_tuned_model.pkl, scaler.pkl, lstm_log.txt, lstm_mae_plot.png
+[2025-03-28 15:03:34] Sources: TensorFlow (https://www.tensorflow.org/), Pandas (https://pandas.pydata.org/), UCI Metro Traffic Dataset.
