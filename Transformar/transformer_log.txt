@@ -1,0 +1,25 @@
+[2025-03-28 17:11:10] === Transformer Model Log Started ===
+[2025-03-28 17:11:10] Business Understanding: Predict daily closing stock prices using a Transformer to support financial forecasting and trading strategies.
+[2025-03-28 17:12:19] Loading the dataset.
+[2025-03-28 17:13:20] Loading the dataset.
+[2025-03-28 17:13:40] Displaying the first few rows of the dataset.
+[2025-03-28 17:17:56] Checking the summary of the dataset.
+[2025-03-28 17:28:34] Checking for missing values in the dataset.
+[2025-03-28 17:37:52] Feature engineering and encoding completed.
+[2025-03-28 17:38:21] Visualization: Generated time-series plot of closing prices saved as 'close_price_timeseries.png'.
+[2025-03-28 17:39:16] Visualization: Generated feature correlation heatmap saved as 'feature_correlation_heatmap.png'.
+[2025-03-28 17:40:01] Visualization: Generated distribution plot of closing prices saved as 'close_price_distribution.png'.
+[2025-03-28 17:40:39] Visualization: Generated scatter plot of volume vs. closing price saved as 'volume_vs_close_price.png'.[2025-03-28 17:45:35] Data Preparation: Created 990 sequences of length 10 with features ['Open', 'High', 'Low', 'Close', 'Volume', 'Market_Cap', 'PE_Ratio', 'Dividend_Yield', 'Volatility', 'Sentiment_Score', 'Sector_encoded', 'Day_of_Week', 'Trend_encoded'].
+[2025-03-28 17:46:22] Data Preparation: Split data into 792 training and 198 testing samples.
+[2025-03-28 17:47:31] Modeling: Building Transformer model with 2 layers, 4 heads, head_size=256, ff_dim=128.
+[2025-03-28 17:49:31] Evaluation: Transformer - Test MSE: 0.0038, Test MAE: 0.0499, Epochs: 20, Batch Size: 32., Test Rmse: 0.0613, Test R2: 0.9962.
+[2025-03-28 17:49:58] Visualization: Generated training and validation loss plot saved as 'transformer_loss_plot.png'.
+[2025-03-28 17:50:21] Visualization: Generated MAE plot saved as 'transformer_mae_plot.png'.
+[2025-03-28 17:52:21] Modeling: Transformer model predictions generated for visualization.
+[2025-03-28 17:53:16] Visualization: Generated actual vs predicted prices plot saved as 'actual_vs_predicted_prices.png'.
+[2025-03-28 17:53:38] Visualization: Generated prediction error distribution plot saved as 'prediction_error_distribution.png'.
+[2025-03-28 17:54:46] Deployment: Transformer model saved as transformer_model.pkl
+[2025-03-28 17:54:46] Deployment: Scaler saved as 'scaler.pkl'
+[2025-03-28 17:55:07] Deployment: Transformer model saved as transformer_model.pkl
+[2025-03-28 17:55:07] Deployment: Scaler saved as 'scaler.pkl'
+[2025-03-28 17:55:07] Deployment: Sample Prediction - Predicted Close: 120.99, True Close: 120.5582936872806
