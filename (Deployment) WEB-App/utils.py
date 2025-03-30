@@ -24,6 +24,16 @@ def load_model(model_path):
     except Exception as e:
         st.error(f"Error loading model: {e}")
         return None
+    
+def load_pkl_model(file_path):
+    """Load a model saved as a .pkl file"""
+    try:
+        model = joblib.load(file_path)
+        return model
+    except Exception as e:
+        st.error(f"Error loading .pkl model: {e}")
+        return None
+
 
 def plot_model_history(history):
     """Plot training history of a model"""
@@ -138,3 +148,30 @@ def save_uploaded_file(uploaded_file):
         f.write(uploaded_file.getbuffer())
     
     return file_path
+
+def save_uploaded_file(uploaded_file):
+    # Code to save the file
+    with open('uploads/' + uploaded_file.name, 'wb') as f:
+        f.write(uploaded_file.read())
+    return 'uploads/' + uploaded_file.name
+
+import os
+
+def save_uploaded_file(uploaded_file):
+    # Create the 'uploads' directory if it doesn't exist
+    upload_folder = 'uploads'
+    if not os.path.exists(upload_folder):
+        os.makedirs(upload_folder)
+    
+    # Save the uploaded file in the 'uploads' folder
+    file_path = os.path.join(upload_folder, uploaded_file.name)
+    with open(file_path, 'wb') as f:
+        f.write(uploaded_file.getbuffer())
+    return file_path
+
+import pickle
+
+def load_pkl_model(file_path):
+    with open(file_path, 'rb') as file:
+        model = pickle.load(file)
+    return model

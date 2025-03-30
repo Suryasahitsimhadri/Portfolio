@@ -5,6 +5,9 @@ import os
 import matplotlib.pyplot as plt
 from PIL import Image
 from utils import set_page_config
+from utils import save_uploaded_file
+from utils import load_pkl_model
+
 
 # Set page configuration
 set_page_config("Deep Learning Models Dashboard")
@@ -75,6 +78,21 @@ info_df = pd.DataFrame({
 })
 
 st.table(info_df)
+
+st.title("Upload and Load Model")
+
+uploaded_model = st.file_uploader("Upload a .pkl model file", type=["pkl"])
+
+if uploaded_model is not None:
+    file_path = save_uploaded_file(uploaded_model)
+    model = load_pkl_model(file_path)
+    
+    if model:
+        st.success("Model loaded successfully!")
+        st.write(model)
+    else:
+        st.error("Failed to load the model.")
+
 
 # Footer
 st.markdown("---")
