@@ -6,6 +6,7 @@ import tensorflow as tf
 import os
 from PIL import Image
 import io
+import pickle
 
 from model_handlers.transfer_learning_handler import TransferLearningModelHandler
 from utils import set_page_config, save_uploaded_file
@@ -26,10 +27,10 @@ transfer_model_handler = TransferLearningModelHandler()
 st.sidebar.header("Model Settings")
 
 # Model selection
-model_path = st.sidebar.text_input("Model Path", placeholder="Enter path to your model file (.h5)")
+model_path = st.sidebar.text_input("Model Path", placeholder="Enter path to your model file")
 
 # Option to upload a model file
-uploaded_model = st.sidebar.file_uploader("Or upload a model file", type=['h5', 'keras'])
+uploaded_model = st.sidebar.file_uploader("Or upload a model file", type=['h5', 'keras', 'pkl'])
 if uploaded_model is not None:
     # Save the uploaded model to a temporary file
     model_path = save_uploaded_file(uploaded_model)
