@@ -5,6 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from utils import load_model, display_metrics, plot_prediction_results
+import pickle
 
 class ANNModelHandler:
     def __init__(self, model_path=None):
