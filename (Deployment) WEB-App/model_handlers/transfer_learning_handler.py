@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 import io
 from utils import load_model, load_and_preprocess_image, display_metrics
+import pickle
 
 class TransferLearningModelHandler:
     def __init__(self, model_path=None):
