@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 import os
 import io
+import pickle
 
 from model_handlers.ann_handler import ANNModelHandler
 from utils import set_page_config, save_uploaded_file
