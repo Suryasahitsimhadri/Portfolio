@@ -29,7 +29,7 @@ st.sidebar.header("Model Settings")
 model_path = st.sidebar.text_input("Model Path", placeholder="Enter path to your LSTM model file")
 
 # Option to upload a model file
-uploaded_model = st.sidebar.file_uploader("Or upload a model file", type=['h5', 'keras', 'pkl])
+uploaded_model = st.sidebar.file_uploader("Or upload a model file", type=['h5', 'keras', 'pkl'])
 if uploaded_model is not None:
     # Save the uploaded model to a temporary file
     model_path = save_uploaded_file(uploaded_model)
